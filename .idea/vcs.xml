@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/desktop" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/desktop/app/static/common/choosealicense.com" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/desktop/app/static/common/choosealicense.com/license-list-XML" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/desktop/app/static/common/gitignore" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/desktop/gemoji" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/masalalar" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/my-project-" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/test" vcs="Git" />
+  </component>
+</project>
