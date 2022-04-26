@@ -19,8 +19,8 @@
 #     sum +=x
 #
 # print(sum)
-# 3- maasala
-# n = int(input("N= "))
+# # 3- maasala
+#
 # fact = 0;
 # def factorial(n):
 #     s=1
@@ -33,15 +33,16 @@
 #
 #     return s
 #
+# for y in range(2,11):
+#     print(y,"!= ",end=" ")
+#     for x in range(1,y+1):
+#         if x == y:
+#             print(x,end = "=")
+#             print(factorial(y))
+#         else:
+#             print(x, end = "*")
+#     print()
 #
-# for x in range(1,n+1):
-#     if x == n:
-#         print(x,end = "=")
-#         print(factorial(n))
-#     else:
-#         print(x, end = "*")
-
-
 # #4-masala
 # print(" a va b sonlarni kiriting ( 15 25 ) kabi : " ,end = " ")
 # a,b = [int(item) for item in input().split(" ")]
@@ -50,7 +51,7 @@
 # elif b >= a :
 #     print(b-a)
 
-# # 5- masala yulduzcha
+# # # 5- masala yulduzcha
 # n = int(input("N= "))
 # a=""
 # s = ""
@@ -92,18 +93,101 @@
 #     x-=1
 
 
-#6-masala
+# #6-masala
+#
+# s = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0]
+# i = 0
+# k=0
+# while i < 10:
+#     for x in s :
+#         print(x, end=" ")
+#     s.append((s[k]))
+#     s.remove(s[k])
+#     # k=i+1
+#     print()
+#     i += 1
 
-s='1234567890'
-i =0
-while i< 10:
-    j=i
-    a=0
-    while j < 10:
-
-        print(s[j],end=' ')
-        a+=1
 
 
-for x in s :
-    print(x,end=" ")
+
+# #problem 6 ni 2 -si
+# k = 0
+# n = int(input(" N = "))
+# i = 3
+# while i <= n:
+#     a = i
+#     while a:
+#
+#         if a % 10 == 3:
+#             k += 1
+#         a = a // 10
+#
+#     i += 1
+# print(k)
+
+
+# # problem 7
+# n = int(input(" N = "))
+# k = 0
+# d = 1
+# s = [1,2,3,4,5,6,7,8,9,0]
+# for x in range(0, n+1):
+#
+#     a = " "
+#     i = 0
+#
+#     w = 0
+#     while w < n+1//2 - d:
+#         a += " "
+#         w += 1
+#     print(a, end=" ")
+#     while i < x:
+#
+#         print(s[k % 10], end=" ")
+#         k += 1
+#         i += 1
+#     print()
+#     d += 1
+
+# # 8 problem
+# n = int(input("N= "))
+# s = 0
+# while n:
+#     s += n % 10
+#     n //= 10
+#
+# k = s % 10
+# k += s // 10
+#
+# print(k)
+
+#9.1
+#
+# # problem
+# count = 0
+# for x in range(1,7):
+#     for y in range(1, 7):
+#         for z in range(1, 7):
+#             if (x + z + y ) == 10 :
+#                 print(x, " ", y, " ", z)
+#                 count +=1
+#
+# print("count = " , count)
+
+# # 9.2 problem
+# n = int(input(" N = "))
+# sum = 0
+# for x in range(0,n+1):
+#     sum += x
+#
+# print(sum)
+#
+
+
+# # 10 problem
+#
+# x = [int(x) for x in input("LIST ELEMENTLARINI KIRITING(3 5 6 7 8) SHAKLDA ").split(" ")]
+# sum = 0
+# for y in x:
+#     sum += y
+# print(sum, " ", sum / len(x), len(x))
